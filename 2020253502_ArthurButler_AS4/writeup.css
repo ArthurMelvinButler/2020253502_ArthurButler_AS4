@@ -1,0 +1,131 @@
+/* 
+CMPS3141-HCI - AS4
+Collaborators: Arthur Butler
+Date: October 8, 2023
+ 
+css for all of your write ups here 
+*/
+
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav.topnav {
+  text-align: center;
+}
+
+.topnavtext a {
+  margin: auto;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: 5cap;
+}
+
+
+nav.topnav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Style paragraphs */
+p {
+  margin-bottom: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/* Style images */
+img {
+  max-width: 300px;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style lists */
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Add specific styles for links */
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Additional styles for specific elements can be added as needed */
+
+/* Apply responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+  h1 {
+      font-size: 1.5rem;
+  }
+  h2 {
+      font-size: 1.2rem;
+  }
+}
+
+
+
